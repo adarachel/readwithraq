@@ -8,6 +8,10 @@ This is a book review blog project made with HTML, CSS, and JavaScript by Ada Ra
 
 Welcome to ReadWithRaq, a book review blog that aims to provide honest and unbiased reviews of a wide range of books. While we're still in the process of fine-tuning the website, our ultimate goal is to create a platform where readers can discover new books and share their thoughts with the community.
 
+## Deployment
+
+This site is currently deployed at https://readwithraq.netlify.app
+
 ## Key Features
 
 - **User-Friendly Interface**: Our website offers an intuitive and user-friendly interface, making it easy for visitors to navigate and find reviews that interest them.
