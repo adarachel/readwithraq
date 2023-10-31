@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ReadWithRaq | Book Review Blog</title>
+  <meta name="title" content="ReadWithRaq | Book Review Blog">
+  <meta name="description" content="This is a book blog made with HTML, CSS, and JavaScript by adarachel">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/booklogo4.png" width="80" height="40" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#recent" class="navbar-link hover:underline" data-nav-link>Recent</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover:underline" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#rating" class="navbar-link hover:underline" data-nav-link>Rating System</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="reviews.html" class="navbar-link hover:underline" data-nav-link>All Reviews</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Subscribe</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Click here" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Search for a book or author</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Hey, I'm Raquel.</strong><br> Welcome to my book review blog.
+          </h1>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+
+            <p class="newsletter-text">
+              Be the first to know when a new review or bookish post is published.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            Get started with my <strong class="strong">most popular reviews.</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/happyplace2.jpg" width="500" height="600" loading="lazy"
+                    alt="Happy Place by Emily Henry" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">5 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Happy Place by Emily Henry
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Henry's writing has only gotten better; This is just one of those books that connects with your soul
+                    and teaches you
+                    important lessons without really trying...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/silent1.jpg" width="500" height="600" loading="lazy"
+                    alt="The Silent Patient" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">3 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Mystery/Thriller</a>
+                    </li>
+
+
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      The Silent Patient by Alex Michaelides
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    If you want to know what the word "unputdownable" means- read this book.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/normalpple.jpg" width="500" height="600" loading="lazy" alt="Normal People"
+                    class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">3 Stars</a>
+                    </li>
+
+
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Normal People by Sally Rooney
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    I was not as impressed as the hype led me to believe I would be...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/onetrueloves2.jpg" width="500" height="600" loading="lazy"
+                    alt="One True Loves" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">3 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      One True Loves by Taylor Jenkins Reid
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Poignant and gripping, I couldn't stop turning the page even if I wanted to...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/hypothesis1.jpg" width="500" height="600" loading="lazy"
+                    alt="The Love Hypothesis" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">2 Stars</a>
+                    </li>
+
+
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      The Love Hypothesis by Ali Hazelwood
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    This pissed me off. Bad.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/verity1.jpg" width="500" height="600" loading="lazy" alt="Verity"
+                    class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">1 Star</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Thriller</a>
+                    </li>
+
+
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Verity by Colleen Hoover
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Plot: nonexistent<br>Characters: abysmal
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section id="recent" class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              See my <strong class="strong">recent reviews.</strong>
+            </h2>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/fourthwing.jpg" width="550" height="660" loading="lazy" alt="Fourth Wing"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">3.5 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Fanatasy</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Fourth Wing by Rebecca Yarros </a>
+                  </h3>
+
+                  <p class="card-text">
+                    If you are an avid fantasy reader, you may find this book to be very, very, very cliche...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/convenience.jpg" width="550" height="660" loading="lazy" alt=""
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">5 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Fiction</a>
+                    </li>
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Convenience Store Woman by Sayaka Murata
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Intriguing" is the perfect word to describe this book; I picked it up because I was intrigued by
+                    the description, and I was not disappointed.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/ithappened.jpg" width="550" height="660" loading="lazy" alt=""
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">3.5 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Spicy</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      It Happened One Summer by Tessa Bailey
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The writing became so repetitive and monotonous towards the end...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/everylastsecret.jpg" width="550" height="660" loading="lazy" alt=""
+                    class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">4.5 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Adult</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Suspense</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Every Last Secret by A.R. Torre
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    If you are in the mood for some drama, I HIGHLY recommend this book...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/sevendays2.jpg" width="550" height="660" loading="lazy" alt=""
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">4 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Adult</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Seven Days In June by Tia Williams
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    This was a captivating read that left me feeling so happy, with its blend of humor, heartwarming
+                    moments, and spirited characters...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/howtofake.jpg" width="550" height="660" loading="lazy" alt=""
+                    class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">4 Stars</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Romance</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Spicy</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      How To Fake It In Hollywood by Ava Wilder
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    This book single-handedly ressurected my love for the fake dating trope...
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="reviews.html"><button class="btn">See All Reviews</button></a>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="section about">
+
+        <h2 class="h2 section-title">
+          About <strong class="strong">the blogger:</strong>
+        </h2>
+        <br>
+        <p>Tyrion Lannister once said, <strong>"Sleep is good, and books are better."</strong> Ain't that the
+          truth.<br><br>
+          My name is Raquel, and I love to read! It is my favorite thing to do, so why not write about it?
+          <br><br>This blog is
+          just me giving my unsolicited
+          thoughts and opinions on the books I read. <br><br> Here, you can find an archive of simple, honest & unbiased
+          reviews
+          and recommendations :) <br><br>Spoiler alerts will always be provided for non-spoiler-free reviews.
+          <br><br>Let's find new favorites together!
+        </p>
+        <br>
+        <p><strong>This user is obsessed with:</strong><br><br>
+        <ul>
+          <li> Pasta</li>
+          <li> Beyonce</li>
+          <li>K-dramas</li>
+          <li>Taylor Swift lyrics</li>
+          <li>The Grishaverse</li>
+        </ul>
+        <br>
+        My favorite genres are <strong>Mystery/Thriller, Romance, Domestic Suspense, & Fantasy.</strong>
+        <br><br>
+        If you like any of these, we are already besties!
+        </p>
+      </section>
+
+      <section id="rating" class="section about">
+
+        <h2 class="h2 section-title">
+          <strong class="strong">𝕽ᥲ𝗍іᥒg 𝕾ᥡs𝗍ᥱm</strong>
+        </h2>
+
+        <ul>
+
+          <strong>5 STARS:</strong>
+          <li>✯✯✯✯✯ crying, throwing up, banging my head against the wall, breaking all of my limbs, digging my own
+            grave.</li>
+          <br>
+          <strong>4 STARS:</strong>
+          <li>✯✯✯✯ she's an icon, she's a legend and she is the moment.</li>
+          <br>
+          <strong>3 STARS:</strong>
+          <li>✯✯✯ don't be shy, put some more.</li>
+          <br>
+          <strong>2 STARS:</strong>
+          <li>✯✯ a nightmare. LITERALLY a nightmare.</li>
+          <br>
+          <strong>1 STAR:</strong>
+          <li>✯ lock it up. come up with something new.</li>
+        </ul>
+      </section>
+
+      <section id="rating" class="section about">
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/playlist/5X2cqbQpVsrR6dBP5J2if0?utm_source=generator" width="100%"
+          height="352" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+      </section>
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Subscribe to <strong class="strong">new posts</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="footer-logo">
+            ReadWithRaq
+          </a>
+
+          <p class="footer-text">
+            Sharing is caring! If you enjoyed a book review of mine, sharing a link to this blog will really help
+            introduce it to new readers.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-instagram"></ion-icon>
+
+            <a href="https://www.instagram.com/readwithraq/" class="footer-link hover:underline">Instagram</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+
+
+        </ul>
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          All Rights Reserved &copy; 2023 readwithraq <br> <a href="https://www.linkedin.com/in/adarachel"
+            class="copyright-link hover:underline">Site Developed by adarachel.</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
