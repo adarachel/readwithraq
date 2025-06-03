@@ -6,21 +6,21 @@ This is a book review blog project made with HTML, CSS, and JavaScript by Ada Ra
 
 ## Overview
 
-Welcome to ReadWithRaq, a book review blog that aims to provide honest and unbiased reviews of a wide range of books. While we're still in the process of fine-tuning the website, our ultimate goal is to create a platform where readers can discover new books and share their thoughts with the community.
+This is a responsive and user-friendly website for a medical office, built using HTML, CSS, and JavaScript. It provides essential information for patients, including office hours, services offered, contact details, and health resources. The site also emphasizes accessibility, clean design, and smooth user experience across devices.
 
 ## Deployment
 
-This site is currently deployed at https://readwithraq.netlify.app
+This site is currently deployed at https://betterwithij.health
 
 ## Key Features
 
-- **User-Friendly Interface**: Our website offers an intuitive and user-friendly interface, making it easy for visitors to navigate and find reviews that interest them.
+- **User-Friendly Interface**: Homepage with welcome message and office overview
 
 - **Mobile Responsiveness**: We've optimized our website for mobile devices to ensure that readers can enjoy our content on the go.
 
-- **Engaging Content**: Expect to find engaging reviews and recommendations that cater to a variety of book genres.
+- **Engaging Content**: Services section outlining available medical care
 
-- **Search Functionality**: Looking for a specific book or author? Use our search feature to find it quickly.
+- **Monthly Blog**: Blog page with new articles each month
 
 ## Technologies Used
 
@@ -32,12 +32,12 @@ This site is currently deployed at https://readwithraq.netlify.app
 
 - `index.html`: The main HTML file for the website.
 - `assets/`: This folder contains subdirectories for CSS, images, and JavaScript files.
-- `reviews.html`: A page for viewing all book reviews.
+- `news.html`: A page for viewing all blog articles published.
 - `README.md`: You're reading it right now!
 
 ## Contributing
 
-We welcome contributions from the community to help improve and complete the website. If you'd like to contribute, please feel free to [open an issue](https://github.com/adarachel/readwithraq/issues) or submit a pull request.
+We welcome contributions from the community to help improve and complete the website. If you'd like to contribute, please feel free to [open an issue](https://github.com/adarachel/betterwithij/issues) or submit a pull request.
 
 ## Contact
 
